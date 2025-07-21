@@ -194,6 +194,7 @@
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
     <Compile Include="Horario.cs" />
+    <Compile Include="IncidenciaManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

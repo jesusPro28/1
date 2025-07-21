@@ -29,5 +29,36 @@ namespace _1
             nuevoFormulario.Show();              // Mostrar el nuevo form
             this.Close();
         }
+        private void LimpiarCampos()
+        {
+            txt_numeroTrabajador.Clear();
+            txt_curp.Clear();
+            txt_fecha.Clear();
+            txt_descripcion.Clear();
+        }
+
+        private void btn_guardar_Click(object sender, EventArgs e)
+        {
+            string numTrabajador = txt_numeroTrabajador.Text.Trim();
+            string curp = txt_curp.Text.Trim();
+            string descripcion = txt_descripcion.Text.Trim();
+
+            if (!DateTime.TryParse(txt_fecha.Text.Trim(), out DateTime fecha))
+            {
+                MessageBox.Show("La fecha ingresada no es válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (string.IsNullOrEmpty(numTrabajador) || string.IsNullOrEmpty(curp) || string.IsNullOrEmpty(descripcion))
+            {
+                MessageBox.Show("Por favor, completa todos los campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            IncidenciaManager manager = new IncidenciaManager();
+            manager.GuardarIncidencia(numTrabajador, curp, fecha, descripcion);
+            LimpiarCampos(); // <- AQUÍ LIMPIAS LOS TEXTBOX
+
+        }
     }
 }

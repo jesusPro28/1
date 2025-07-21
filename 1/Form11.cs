@@ -16,6 +16,10 @@ namespace _1
         {
             InitializeComponent();
             this.BackColor = ColorTranslator.FromHtml("#335B7F");
+            //agrega las opciones del combobox
+            cmb_seleccionar.Items.Add("EMPLEADO");
+            cmb_seleccionar.Items.Add("REPORTE GENERAL");
+            cmb_seleccionar.SelectedIndex = 0; 
         }
 
         private void Form11_Load(object sender, EventArgs e)
@@ -28,6 +32,25 @@ namespace _1
             Form9 nuevoFormulario = new Form9(); // Instanciar el nuevo form
             nuevoFormulario.Show();              // Mostrar el nuevo form
             this.Close();
+        }
+
+        private void cmb_seleccionar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string opcionSeleccionada = cmb_seleccionar.SelectedItem.ToString();    
+            if (opcionSeleccionada == "EMPLEADO")
+            {
+                // Mostrar el formulario de empleado
+                Form12 nuevoFormulario = new Form12(); // Instanciar el nuevo form
+                nuevoFormulario.Show();              // Mostrar el nuevo form
+                this.Close();
+            }
+            else if (opcionSeleccionada == "REPORTE GENERAL")
+            {
+                // Mostrar el formulario de reporte general
+                Form14 nuevoFormulario = new Form14(); // Instanciar el nuevo form
+                nuevoFormulario.Show();              // Mostrar el nuevo form
+                this.Close();
+            }
         }
     }
 }

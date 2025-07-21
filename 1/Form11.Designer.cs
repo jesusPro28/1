@@ -61,7 +61,7 @@
             // 
             this.pictureBox5.Image = global::_1.Properties.Resources.Captura_de_pantalla_2025_07_09_191907;
             this.pictureBox5.Location = new System.Drawing.Point(0, 583);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(777, 12);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -72,7 +72,7 @@
             // 
             this.pictureBox4.Image = global::_1.Properties.Resources.Captura_de_pantalla_2025_07_09_191907;
             this.pictureBox4.Location = new System.Drawing.Point(1, 116);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(777, 12);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -83,7 +83,7 @@
             // 
             this.pictureBox3.Image = global::_1.Properties.Resources._202109180450036_gal;
             this.pictureBox3.Location = new System.Drawing.Point(644, 2);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(123, 108);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -94,7 +94,7 @@
             // 
             this.pictureBox2.Image = global::_1.Properties.Resources.Imagen_de_WhatsApp_2025_07_07_a_las_13_41_33_8f8742e6_removebg_preview;
             this.pictureBox2.Location = new System.Drawing.Point(199, 6);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(388, 107);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -105,7 +105,7 @@
             // 
             this.pictureBox1.Image = global::_1.Properties.Resources._2021091804500411_gal;
             this.pictureBox1.Location = new System.Drawing.Point(1, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(123, 108);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -118,7 +118,7 @@
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.Location = new System.Drawing.Point(600, 133);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(180, 43);
             this.button1.TabIndex = 12;
@@ -142,15 +142,13 @@
             // 
             this.cmb_seleccionar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
             this.cmb_seleccionar.FormattingEnabled = true;
-            this.cmb_seleccionar.Items.AddRange(new object[] {
-            "EMPLEADO",
-            "REPORTE GENERAL"});
-            this.cmb_seleccionar.Location = new System.Drawing.Point(267, 320);
-            this.cmb_seleccionar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmb_seleccionar.Location = new System.Drawing.Point(301, 323);
+            this.cmb_seleccionar.Margin = new System.Windows.Forms.Padding(4);
             this.cmb_seleccionar.Name = "cmb_seleccionar";
             this.cmb_seleccionar.Size = new System.Drawing.Size(155, 24);
             this.cmb_seleccionar.TabIndex = 14;
             this.cmb_seleccionar.Text = "SELLECCIONAR";
+            this.cmb_seleccionar.SelectedIndexChanged += new System.EventHandler(this.cmb_seleccionar_SelectedIndexChanged);
             // 
             // Form11
             // 
@@ -166,7 +164,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form11";
             this.Text = "Form11";
             this.Load += new System.EventHandler(this.Form11_Load);

@@ -29,5 +29,19 @@ namespace _1
             nuevoFormulario.Show();              // Mostrar el nuevo form
             this.Close();
         }
+
+        private void btn_incidencias_Click(object sender, EventArgs e)
+        {
+            Form10 nuevoFormulario = new Form10(); // Instanciar el nuevo form
+            nuevoFormulario.Show();              // Mostrar el nuevo form
+            this.Close();
+        }
+
+        private void btn_generacionDeReportes_Click(object sender, EventArgs e)
+        {
+            Form11 nuevoFormulario = new Form11(); // Instanciar el nuevo form
+            nuevoFormulario.Show();              // Mostrar el nuevo form
+            this.Close();
+        }
     }
 }

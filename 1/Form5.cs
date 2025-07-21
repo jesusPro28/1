@@ -17,6 +17,14 @@ namespace _1
         {
             InitializeComponent();
             this.BackColor = ColorTranslator.FromHtml("#335B7F");
+            btnSalir.BackColor = ColorTranslator.FromHtml("#002140");
+            btnRegistrar.BackColor = ColorTranslator.FromHtml("#002140");
+            txtApMaterno.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtApPaterno.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtCurp.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+
+
+
         }
 
         private void Form5_Load(object sender, EventArgs e)
@@ -52,11 +60,11 @@ namespace _1
                 DialogResult resultado = MessageBox.Show(
                     "Empleado guardado correctamente.\n¿Deseas registrar su horario ahora?",
                     "Registro exitoso",
-                    MessageBoxButtons.YesNo,
+                    MessageBoxButtons.OK,
                     MessageBoxIcon.Question
                 );
 
-                if (resultado == DialogResult.Yes)
+                if (resultado == DialogResult.OK)
                 {
                     // Abre el formulario de horario con el número de trabajador ya cargado
                     Form6 horarioForm = new Form6(emp.NumTrabajador);

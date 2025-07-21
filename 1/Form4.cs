@@ -17,6 +17,9 @@ namespace _1
         {
             InitializeComponent();
             this.BackColor = ColorTranslator.FromHtml("#335B7F");
+            btnRegistrar.BackColor = ColorTranslator.FromHtml("#002140");
+            btnSalir.BackColor = ColorTranslator.FromHtml("#002140");
+            comboBoxelegir.BackColor = ColorTranslator.FromHtml("#A6A6A6");
         }
 
         private void Form4_Load(object sender, EventArgs e)

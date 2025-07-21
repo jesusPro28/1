@@ -22,5 +22,12 @@ namespace _1
         {
 
         }
+
+        private void btn_salir_Click(object sender, EventArgs e)
+        {
+            Form11 nuevoFormulario = new Form11(); // Instanciar el nuevo form
+            nuevoFormulario.Show();              // Mostrar el nuevo form
+            this.Close();
+        }
     }
 }

@@ -62,7 +62,7 @@
             // 
             this.pictureBox5.Image = global::_1.Properties.Resources.Captura_de_pantalla_2025_07_09_191907;
             this.pictureBox5.Location = new System.Drawing.Point(0, 583);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(777, 12);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -73,7 +73,7 @@
             // 
             this.pictureBox4.Image = global::_1.Properties.Resources.Captura_de_pantalla_2025_07_09_191907;
             this.pictureBox4.Location = new System.Drawing.Point(1, 116);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(777, 12);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -84,7 +84,7 @@
             // 
             this.pictureBox3.Image = global::_1.Properties.Resources._202109180450036_gal;
             this.pictureBox3.Location = new System.Drawing.Point(644, 2);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(123, 108);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -95,7 +95,7 @@
             // 
             this.pictureBox2.Image = global::_1.Properties.Resources.Imagen_de_WhatsApp_2025_07_07_a_las_13_41_33_8f8742e6_removebg_preview;
             this.pictureBox2.Location = new System.Drawing.Point(199, 6);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(388, 107);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -106,7 +106,7 @@
             // 
             this.pictureBox1.Image = global::_1.Properties.Resources._2021091804500411_gal;
             this.pictureBox1.Location = new System.Drawing.Point(1, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(123, 108);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -131,7 +131,7 @@
             this.btn_salir.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_salir.ForeColor = System.Drawing.Color.White;
             this.btn_salir.Location = new System.Drawing.Point(600, 133);
-            this.btn_salir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_salir.Margin = new System.Windows.Forms.Padding(4);
             this.btn_salir.Name = "btn_salir";
             this.btn_salir.Size = new System.Drawing.Size(180, 43);
             this.btn_salir.TabIndex = 13;
@@ -145,12 +145,13 @@
             this.btn_incidencias.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_incidencias.ForeColor = System.Drawing.Color.White;
             this.btn_incidencias.Location = new System.Drawing.Point(103, 295);
-            this.btn_incidencias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_incidencias.Margin = new System.Windows.Forms.Padding(4);
             this.btn_incidencias.Name = "btn_incidencias";
             this.btn_incidencias.Size = new System.Drawing.Size(180, 42);
             this.btn_incidencias.TabIndex = 14;
             this.btn_incidencias.Text = "INCIDENCIAS";
             this.btn_incidencias.UseVisualStyleBackColor = false;
+            this.btn_incidencias.Click += new System.EventHandler(this.btn_incidencias_Click);
             // 
             // btn_generacionDeReportes
             // 
@@ -158,12 +159,13 @@
             this.btn_generacionDeReportes.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_generacionDeReportes.ForeColor = System.Drawing.Color.White;
             this.btn_generacionDeReportes.Location = new System.Drawing.Point(400, 295);
-            this.btn_generacionDeReportes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_generacionDeReportes.Margin = new System.Windows.Forms.Padding(4);
             this.btn_generacionDeReportes.Name = "btn_generacionDeReportes";
             this.btn_generacionDeReportes.Size = new System.Drawing.Size(360, 42);
             this.btn_generacionDeReportes.TabIndex = 15;
             this.btn_generacionDeReportes.Text = "GENERACION DE REPORTES";
             this.btn_generacionDeReportes.UseVisualStyleBackColor = false;
+            this.btn_generacionDeReportes.Click += new System.EventHandler(this.btn_generacionDeReportes_Click);
             // 
             // Form9
             // 
@@ -180,7 +182,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form9";
             this.Text = "Form9";
             this.Load += new System.EventHandler(this.Form9_Load);

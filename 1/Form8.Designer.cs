@@ -2,6 +2,7 @@
 {
     partial class Form8
     {
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -386,7 +387,7 @@
             // btnSalir
             // 
             this.btnSalir.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSalir.ForeColor = System.Drawing.Color.White;
             this.btnSalir.Location = new System.Drawing.Point(644, 136);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
@@ -408,6 +409,7 @@
             this.btn_modificar.TabIndex = 38;
             this.btn_modificar.Text = "MODIFICAR";
             this.btn_modificar.UseVisualStyleBackColor = false;
+            this.btn_modificar.Click += new System.EventHandler(this.btn_modificar_Click);
             // 
             // Form8
             // 
@@ -478,20 +480,20 @@
         private System.Windows.Forms.Label lbl_miercoles;
         private System.Windows.Forms.Label lbl_jueves;
         private System.Windows.Forms.Label lbl_viernes;
-        private System.Windows.Forms.TextBox Txt_numeroDeTrabajador;
-        private System.Windows.Forms.TextBox txt_puesto;
-        private System.Windows.Forms.TextBox txt_departamento;
-        private System.Windows.Forms.TextBox txt_turno;
-        private System.Windows.Forms.TextBox txt_lunesEntrada;
-        private System.Windows.Forms.TextBox txt_martesEntrada;
-        private System.Windows.Forms.TextBox txt_miercolesEntrada;
-        private System.Windows.Forms.TextBox txt_juevesEntrada;
-        private System.Windows.Forms.TextBox txt_viernesEntrada;
-        private System.Windows.Forms.TextBox txt_lunesSalida;
-        private System.Windows.Forms.TextBox txt_martesSalida;
-        private System.Windows.Forms.TextBox txt_miercolesSalida;
-        private System.Windows.Forms.TextBox txt_juevesSalida;
-        private System.Windows.Forms.TextBox txt_viernesSalida;
+        public System.Windows.Forms.TextBox Txt_numeroDeTrabajador;
+        public System.Windows.Forms.TextBox txt_puesto;
+        public System.Windows.Forms.TextBox txt_departamento;
+        public System.Windows.Forms.TextBox txt_turno;
+        public System.Windows.Forms.TextBox txt_lunesEntrada;
+        public System.Windows.Forms.TextBox txt_martesEntrada;
+        public System.Windows.Forms.TextBox txt_miercolesEntrada;
+        public System.Windows.Forms.TextBox txt_juevesEntrada;
+        public System.Windows.Forms.TextBox txt_viernesEntrada;
+        public System.Windows.Forms.TextBox txt_lunesSalida;
+        public System.Windows.Forms.TextBox txt_martesSalida;
+        public System.Windows.Forms.TextBox txt_miercolesSalida;
+        public System.Windows.Forms.TextBox txt_juevesSalida;
+        public System.Windows.Forms.TextBox txt_viernesSalida;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btn_modificar;
     }

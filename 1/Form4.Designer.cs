@@ -117,6 +117,7 @@
             // btnRegistrar
             // 
             this.btnRegistrar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.ForeColor = System.Drawing.Color.White;
             this.btnRegistrar.Location = new System.Drawing.Point(317, 386);
             this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistrar.Name = "btnRegistrar";
@@ -129,6 +130,7 @@
             // btnSalir
             // 
             this.btnSalir.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.ForeColor = System.Drawing.Color.White;
             this.btnSalir.Location = new System.Drawing.Point(621, 194);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
@@ -164,6 +166,7 @@
             // 
             // comboBoxelegir
             // 
+            this.comboBoxelegir.ForeColor = System.Drawing.Color.White;
             this.comboBoxelegir.FormattingEnabled = true;
             this.comboBoxelegir.Location = new System.Drawing.Point(303, 331);
             this.comboBoxelegir.Margin = new System.Windows.Forms.Padding(4);

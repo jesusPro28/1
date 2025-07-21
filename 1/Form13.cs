@@ -16,5 +16,12 @@ namespace _1
         {
             InitializeComponent();
         }
+
+        private void btn_salir_Click(object sender, EventArgs e)
+        {
+            Form12 nuevoFormulario = new Form12(); // Instanciar el nuevo form
+            nuevoFormulario.Show();              // Mostrar el nuevo form
+            this.Close();
+        }
     }
 }

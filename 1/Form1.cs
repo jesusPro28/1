@@ -17,6 +17,7 @@ namespace _1
         {
             InitializeComponent();
             this.BackColor = ColorTranslator.FromHtml("#335B7F");
+            cmbElegir.BackColor = ColorTranslator.FromHtml("#A6A6A6");
             // Opciones del ComboBox
             cmbElegir.Items.Add("EMPLEADO");
             cmbElegir.Items.Add("ADMINISTRADOR");

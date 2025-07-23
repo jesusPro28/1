@@ -18,7 +18,7 @@ namespace _1
             this.BackColor = ColorTranslator.FromHtml("#335B7F");
             btnRegistrar.BackColor = ColorTranslator.FromHtml("#002140");
             btnSalir.BackColor = ColorTranslator.FromHtml("#002140");
-            txtNumTrabajador.BackColor = ColorTranslator.FromHtml("#A6A6A6");
+            txtNumTrabajador.BackColor = ColorTranslator.FromHtml("#ADDBBF");
         }
 
         private void Form2_Load(object sender, EventArgs e)

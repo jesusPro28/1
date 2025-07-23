@@ -17,7 +17,22 @@ namespace _1
         {
             InitializeComponent();
             this.BackColor = ColorTranslator.FromHtml("#335B7F");
-
+            btnSalir.BackColor = ColorTranslator.FromHtml("#002140");
+            btn_modificar.BackColor = ColorTranslator.FromHtml("#002140");
+            txt_departamento.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_juevesEntrada.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_juevesSalida.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_lunesEntrada.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_lunesSalida.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_martesEntrada.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_martesSalida.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_miercolesEntrada.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_miercolesSalida.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_puesto.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_turno.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_viernesEntrada.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_viernesSalida.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            Txt_numeroDeTrabajador.BackColor = ColorTranslator.FromHtml("#ADDBBF");
         }
         
         private void Form8_Load(object sender, EventArgs e)

@@ -20,7 +20,7 @@ namespace _1
             this.BackColor = ColorTranslator.FromHtml("#335B7F");
             btnSalir.BackColor = ColorTranslator.FromHtml("#002140");
             btnRegistrar.BackColor = ColorTranslator.FromHtml("#002140");
-            txtPass.BackColor = ColorTranslator.FromHtml("#A6A6A6");
+            txtPass.BackColor = ColorTranslator.FromHtml("#ADDBBF");
         }
 
         private void Form3_Load(object sender, EventArgs e)

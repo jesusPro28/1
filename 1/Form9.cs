@@ -16,6 +16,9 @@ namespace _1
         {
             InitializeComponent();
             this.BackColor = ColorTranslator.FromHtml("#335B7F");
+            btn_generacionDeReportes.BackColor = ColorTranslator.FromHtml("#002140");
+            btn_incidencias.BackColor = ColorTranslator.FromHtml("#002140");
+            btn_salir.BackColor = ColorTranslator.FromHtml("#002140");
         }
 
         private void Form9_Load(object sender, EventArgs e)

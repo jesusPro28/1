@@ -127,6 +127,7 @@
             // txtViernes
             // 
             this.txtViernes.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtViernes.ForeColor = System.Drawing.Color.White;
             this.txtViernes.Location = new System.Drawing.Point(229, 382);
             this.txtViernes.Name = "txtViernes";
             this.txtViernes.Size = new System.Drawing.Size(140, 27);
@@ -135,6 +136,7 @@
             // txtJueves
             // 
             this.txtJueves.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtJueves.ForeColor = System.Drawing.Color.White;
             this.txtJueves.Location = new System.Drawing.Point(229, 346);
             this.txtJueves.Name = "txtJueves";
             this.txtJueves.Size = new System.Drawing.Size(140, 27);
@@ -143,6 +145,7 @@
             // txtMiercoles
             // 
             this.txtMiercoles.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMiercoles.ForeColor = System.Drawing.Color.White;
             this.txtMiercoles.Location = new System.Drawing.Point(229, 313);
             this.txtMiercoles.Name = "txtMiercoles";
             this.txtMiercoles.Size = new System.Drawing.Size(140, 27);
@@ -151,6 +154,7 @@
             // txtMartes
             // 
             this.txtMartes.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMartes.ForeColor = System.Drawing.Color.White;
             this.txtMartes.Location = new System.Drawing.Point(229, 280);
             this.txtMartes.Name = "txtMartes";
             this.txtMartes.Size = new System.Drawing.Size(140, 27);
@@ -159,6 +163,7 @@
             // txtLunes
             // 
             this.txtLunes.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLunes.ForeColor = System.Drawing.Color.White;
             this.txtLunes.Location = new System.Drawing.Point(229, 247);
             this.txtLunes.Name = "txtLunes";
             this.txtLunes.Size = new System.Drawing.Size(140, 27);
@@ -167,6 +172,7 @@
             // txtTurno
             // 
             this.txtTurno.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTurno.ForeColor = System.Drawing.Color.White;
             this.txtTurno.Location = new System.Drawing.Point(229, 214);
             this.txtTurno.Name = "txtTurno";
             this.txtTurno.Size = new System.Drawing.Size(140, 27);
@@ -175,6 +181,7 @@
             // txtNumTrabajador
             // 
             this.txtNumTrabajador.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumTrabajador.ForeColor = System.Drawing.Color.White;
             this.txtNumTrabajador.Location = new System.Drawing.Point(229, 179);
             this.txtNumTrabajador.Name = "txtNumTrabajador";
             this.txtNumTrabajador.Size = new System.Drawing.Size(140, 27);
@@ -303,6 +310,7 @@
             // txtViernes1
             // 
             this.txtViernes1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtViernes1.ForeColor = System.Drawing.Color.White;
             this.txtViernes1.Location = new System.Drawing.Point(385, 382);
             this.txtViernes1.Name = "txtViernes1";
             this.txtViernes1.Size = new System.Drawing.Size(140, 27);
@@ -311,6 +319,7 @@
             // txtJueves1
             // 
             this.txtJueves1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtJueves1.ForeColor = System.Drawing.Color.White;
             this.txtJueves1.Location = new System.Drawing.Point(385, 349);
             this.txtJueves1.Name = "txtJueves1";
             this.txtJueves1.Size = new System.Drawing.Size(140, 27);
@@ -319,6 +328,7 @@
             // txtMiercoles1
             // 
             this.txtMiercoles1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMiercoles1.ForeColor = System.Drawing.Color.White;
             this.txtMiercoles1.Location = new System.Drawing.Point(385, 313);
             this.txtMiercoles1.Name = "txtMiercoles1";
             this.txtMiercoles1.Size = new System.Drawing.Size(140, 27);
@@ -327,6 +337,7 @@
             // txtMartes1
             // 
             this.txtMartes1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMartes1.ForeColor = System.Drawing.Color.White;
             this.txtMartes1.Location = new System.Drawing.Point(385, 280);
             this.txtMartes1.Name = "txtMartes1";
             this.txtMartes1.Size = new System.Drawing.Size(140, 27);
@@ -335,6 +346,7 @@
             // txtLunes1
             // 
             this.txtLunes1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLunes1.ForeColor = System.Drawing.Color.White;
             this.txtLunes1.Location = new System.Drawing.Point(385, 247);
             this.txtLunes1.Name = "txtLunes1";
             this.txtLunes1.Size = new System.Drawing.Size(140, 27);

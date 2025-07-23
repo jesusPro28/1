@@ -168,6 +168,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form13";
             this.Text = "Form13";
+            this.Load += new System.EventHandler(this.Form13_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

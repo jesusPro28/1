@@ -16,6 +16,10 @@ namespace _1
         {
             InitializeComponent();
             this.BackColor = ColorTranslator.FromHtml("#335B7F");
+            btn_salir.BackColor = ColorTranslator.FromHtml("#002140");
+            btn_generar.BackColor = ColorTranslator.FromHtml("#002140");
+            txt_fechaInicio.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txt_fechaTermino.BackColor = ColorTranslator.FromHtml("#ADDBBF");
         }
 
         private void Form14_Load(object sender, EventArgs e)

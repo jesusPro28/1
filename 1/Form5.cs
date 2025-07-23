@@ -22,9 +22,10 @@ namespace _1
             txtApMaterno.BackColor = ColorTranslator.FromHtml("#ADDBBF");
             txtApPaterno.BackColor = ColorTranslator.FromHtml("#ADDBBF");
             txtCurp.BackColor = ColorTranslator.FromHtml("#ADDBBF");
-
-
-
+            txtNombre.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtNumTrabajador.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            cmbDepartamento.BackColor = ColorTranslator.FromHtml("#A6A6A6");
+            cmbPuesto.BackColor = ColorTranslator.FromHtml("#A6A6A6");
         }
 
         private void Form5_Load(object sender, EventArgs e)
@@ -48,8 +49,8 @@ namespace _1
                 Nombre = txtNombre.Text,
                 APaterno = txtApPaterno.Text,
                 AMaterno = txtApMaterno.Text,
-                Puesto = txtPuesto.Text,
-                Departamento = txtDepartamento.Text
+                Puesto = cmbPuesto.Text,
+                Departamento = cmbDepartamento.Text
             };
 
             clsconeccion con = new clsconeccion();

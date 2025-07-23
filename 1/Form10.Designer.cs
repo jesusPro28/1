@@ -183,6 +183,7 @@
             // txt_numeroTrabajador
             // 
             this.txt_numeroTrabajador.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_numeroTrabajador.ForeColor = System.Drawing.Color.White;
             this.txt_numeroTrabajador.Location = new System.Drawing.Point(228, 207);
             this.txt_numeroTrabajador.Name = "txt_numeroTrabajador";
             this.txt_numeroTrabajador.Size = new System.Drawing.Size(140, 27);
@@ -191,6 +192,7 @@
             // txt_fecha
             // 
             this.txt_fecha.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_fecha.ForeColor = System.Drawing.Color.White;
             this.txt_fecha.Location = new System.Drawing.Point(228, 276);
             this.txt_fecha.Name = "txt_fecha";
             this.txt_fecha.Size = new System.Drawing.Size(140, 27);
@@ -199,6 +201,7 @@
             // txt_curp
             // 
             this.txt_curp.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_curp.ForeColor = System.Drawing.Color.White;
             this.txt_curp.Location = new System.Drawing.Point(228, 242);
             this.txt_curp.Name = "txt_curp";
             this.txt_curp.Size = new System.Drawing.Size(140, 27);
@@ -207,6 +210,7 @@
             // txt_descripcion
             // 
             this.txt_descripcion.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_descripcion.ForeColor = System.Drawing.Color.White;
             this.txt_descripcion.Location = new System.Drawing.Point(228, 310);
             this.txt_descripcion.Name = "txt_descripcion";
             this.txt_descripcion.Size = new System.Drawing.Size(250, 27);

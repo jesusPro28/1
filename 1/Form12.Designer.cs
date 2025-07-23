@@ -170,6 +170,7 @@
             // txt_numeroTrabajador
             // 
             this.txt_numeroTrabajador.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_numeroTrabajador.ForeColor = System.Drawing.Color.White;
             this.txt_numeroTrabajador.Location = new System.Drawing.Point(255, 214);
             this.txt_numeroTrabajador.Name = "txt_numeroTrabajador";
             this.txt_numeroTrabajador.Size = new System.Drawing.Size(140, 27);
@@ -178,6 +179,7 @@
             // txt_fechaInicio
             // 
             this.txt_fechaInicio.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_fechaInicio.ForeColor = System.Drawing.Color.White;
             this.txt_fechaInicio.Location = new System.Drawing.Point(255, 252);
             this.txt_fechaInicio.Name = "txt_fechaInicio";
             this.txt_fechaInicio.Size = new System.Drawing.Size(140, 27);
@@ -186,6 +188,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(255, 291);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(140, 27);

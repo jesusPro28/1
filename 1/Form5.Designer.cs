@@ -242,6 +242,7 @@
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.ForeColor = System.Drawing.Color.White;
             this.txtNombre.Location = new System.Drawing.Point(229, 246);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(140, 27);
@@ -250,6 +251,7 @@
             // txtApPaterno
             // 
             this.txtApPaterno.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApPaterno.ForeColor = System.Drawing.Color.White;
             this.txtApPaterno.Location = new System.Drawing.Point(229, 279);
             this.txtApPaterno.Name = "txtApPaterno";
             this.txtApPaterno.Size = new System.Drawing.Size(140, 27);
@@ -258,6 +260,7 @@
             // txtApMaterno
             // 
             this.txtApMaterno.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApMaterno.ForeColor = System.Drawing.Color.White;
             this.txtApMaterno.Location = new System.Drawing.Point(229, 314);
             this.txtApMaterno.Name = "txtApMaterno";
             this.txtApMaterno.Size = new System.Drawing.Size(140, 27);
@@ -266,6 +269,7 @@
             // txtCurp
             // 
             this.txtCurp.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCurp.ForeColor = System.Drawing.Color.White;
             this.txtCurp.Location = new System.Drawing.Point(228, 213);
             this.txtCurp.Name = "txtCurp";
             this.txtCurp.Size = new System.Drawing.Size(140, 27);
@@ -274,6 +278,7 @@
             // txtNumTrabajador
             // 
             this.txtNumTrabajador.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumTrabajador.ForeColor = System.Drawing.Color.White;
             this.txtNumTrabajador.Location = new System.Drawing.Point(229, 179);
             this.txtNumTrabajador.Name = "txtNumTrabajador";
             this.txtNumTrabajador.Size = new System.Drawing.Size(140, 27);
@@ -282,6 +287,7 @@
             // cmbDepartamento
             // 
             this.cmbDepartamento.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbDepartamento.ForeColor = System.Drawing.Color.White;
             this.cmbDepartamento.FormattingEnabled = true;
             this.cmbDepartamento.Location = new System.Drawing.Point(229, 381);
             this.cmbDepartamento.Name = "cmbDepartamento";
@@ -291,6 +297,7 @@
             // cmbPuesto
             // 
             this.cmbPuesto.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbPuesto.ForeColor = System.Drawing.Color.White;
             this.cmbPuesto.FormattingEnabled = true;
             this.cmbPuesto.Location = new System.Drawing.Point(229, 348);
             this.cmbPuesto.Name = "cmbPuesto";

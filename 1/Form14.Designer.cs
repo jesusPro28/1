@@ -124,6 +124,7 @@
             // txt_fechaInicio
             // 
             this.txt_fechaInicio.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_fechaInicio.ForeColor = System.Drawing.Color.White;
             this.txt_fechaInicio.Location = new System.Drawing.Point(257, 199);
             this.txt_fechaInicio.Name = "txt_fechaInicio";
             this.txt_fechaInicio.Size = new System.Drawing.Size(140, 27);
@@ -132,6 +133,7 @@
             // txt_fechaTermino
             // 
             this.txt_fechaTermino.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_fechaTermino.ForeColor = System.Drawing.Color.White;
             this.txt_fechaTermino.Location = new System.Drawing.Point(257, 255);
             this.txt_fechaTermino.Name = "txt_fechaTermino";
             this.txt_fechaTermino.Size = new System.Drawing.Size(140, 27);

@@ -16,6 +16,8 @@ namespace _1
         {
             InitializeComponent();
             this.BackColor = ColorTranslator.FromHtml("#335B7F");
+            button1.BackColor = ColorTranslator.FromHtml("#002140");
+            cmb_seleccionar.BackColor = ColorTranslator.FromHtml("#A6A6A6");
             //agrega las opciones del combobox
             cmb_seleccionar.Items.Add("EMPLEADO");
             cmb_seleccionar.Items.Add("REPORTE GENERAL");

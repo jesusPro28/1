@@ -18,6 +18,10 @@ namespace _1
         {
             InitializeComponent();
             this.BackColor = ColorTranslator.FromHtml("#335B7F");
+            textBox1.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            btnEliminar.BackColor = ColorTranslator.FromHtml("#002140");
+            btnModificar.BackColor = ColorTranslator.FromHtml("#002140");
+            btnSalir.BackColor = ColorTranslator.FromHtml("#002140");
         }
 
         private void Form7_Load(object sender, EventArgs e)

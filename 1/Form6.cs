@@ -17,6 +17,19 @@ namespace _1
         {
             InitializeComponent();
             this.BackColor = ColorTranslator.FromHtml("#335B7F");
+            txtJueves.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtJueves1.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtLunes.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtLunes1.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtMartes.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtMartes1.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtMiercoles.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtMiercoles1.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtNumTrabajador.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtTurno.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtViernes.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+            txtViernes1.BackColor = ColorTranslator.FromHtml("#ADDBBF");
+           
             txtNumTrabajador.Text = NumTrabajador;
         }
 

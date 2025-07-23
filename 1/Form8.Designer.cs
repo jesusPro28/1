@@ -230,7 +230,7 @@
             // Txt_numeroDeTrabajador
             // 
             this.Txt_numeroDeTrabajador.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_numeroDeTrabajador.ForeColor = System.Drawing.Color.Black;
+            this.Txt_numeroDeTrabajador.ForeColor = System.Drawing.Color.White;
             this.Txt_numeroDeTrabajador.Location = new System.Drawing.Point(208, 137);
             this.Txt_numeroDeTrabajador.Name = "Txt_numeroDeTrabajador";
             this.Txt_numeroDeTrabajador.Size = new System.Drawing.Size(140, 27);
@@ -239,7 +239,7 @@
             // txt_puesto
             // 
             this.txt_puesto.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_puesto.ForeColor = System.Drawing.Color.Black;
+            this.txt_puesto.ForeColor = System.Drawing.Color.White;
             this.txt_puesto.Location = new System.Drawing.Point(208, 167);
             this.txt_puesto.Name = "txt_puesto";
             this.txt_puesto.Size = new System.Drawing.Size(140, 27);
@@ -248,6 +248,7 @@
             // txt_departamento
             // 
             this.txt_departamento.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_departamento.ForeColor = System.Drawing.Color.White;
             this.txt_departamento.Location = new System.Drawing.Point(208, 197);
             this.txt_departamento.Name = "txt_departamento";
             this.txt_departamento.Size = new System.Drawing.Size(140, 27);
@@ -256,6 +257,7 @@
             // txt_turno
             // 
             this.txt_turno.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_turno.ForeColor = System.Drawing.Color.White;
             this.txt_turno.Location = new System.Drawing.Point(208, 227);
             this.txt_turno.Name = "txt_turno";
             this.txt_turno.Size = new System.Drawing.Size(140, 27);
@@ -264,6 +266,7 @@
             // txt_lunesEntrada
             // 
             this.txt_lunesEntrada.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_lunesEntrada.ForeColor = System.Drawing.Color.White;
             this.txt_lunesEntrada.Location = new System.Drawing.Point(208, 257);
             this.txt_lunesEntrada.Name = "txt_lunesEntrada";
             this.txt_lunesEntrada.Size = new System.Drawing.Size(140, 27);
@@ -272,6 +275,7 @@
             // txt_martesEntrada
             // 
             this.txt_martesEntrada.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_martesEntrada.ForeColor = System.Drawing.Color.White;
             this.txt_martesEntrada.Location = new System.Drawing.Point(208, 287);
             this.txt_martesEntrada.Name = "txt_martesEntrada";
             this.txt_martesEntrada.Size = new System.Drawing.Size(140, 27);
@@ -280,6 +284,7 @@
             // txt_miercolesEntrada
             // 
             this.txt_miercolesEntrada.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_miercolesEntrada.ForeColor = System.Drawing.Color.White;
             this.txt_miercolesEntrada.Location = new System.Drawing.Point(208, 317);
             this.txt_miercolesEntrada.Name = "txt_miercolesEntrada";
             this.txt_miercolesEntrada.Size = new System.Drawing.Size(140, 27);
@@ -288,6 +293,7 @@
             // txt_juevesEntrada
             // 
             this.txt_juevesEntrada.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_juevesEntrada.ForeColor = System.Drawing.Color.White;
             this.txt_juevesEntrada.Location = new System.Drawing.Point(208, 347);
             this.txt_juevesEntrada.Name = "txt_juevesEntrada";
             this.txt_juevesEntrada.Size = new System.Drawing.Size(140, 27);
@@ -296,6 +302,7 @@
             // txt_viernesEntrada
             // 
             this.txt_viernesEntrada.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_viernesEntrada.ForeColor = System.Drawing.Color.White;
             this.txt_viernesEntrada.Location = new System.Drawing.Point(208, 377);
             this.txt_viernesEntrada.Name = "txt_viernesEntrada";
             this.txt_viernesEntrada.Size = new System.Drawing.Size(140, 27);
@@ -304,6 +311,7 @@
             // txt_lunesSalida
             // 
             this.txt_lunesSalida.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_lunesSalida.ForeColor = System.Drawing.Color.White;
             this.txt_lunesSalida.Location = new System.Drawing.Point(363, 257);
             this.txt_lunesSalida.Name = "txt_lunesSalida";
             this.txt_lunesSalida.Size = new System.Drawing.Size(140, 27);
@@ -312,6 +320,7 @@
             // txt_martesSalida
             // 
             this.txt_martesSalida.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_martesSalida.ForeColor = System.Drawing.Color.White;
             this.txt_martesSalida.Location = new System.Drawing.Point(363, 287);
             this.txt_martesSalida.Name = "txt_martesSalida";
             this.txt_martesSalida.Size = new System.Drawing.Size(140, 27);
@@ -320,6 +329,7 @@
             // txt_miercolesSalida
             // 
             this.txt_miercolesSalida.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_miercolesSalida.ForeColor = System.Drawing.Color.White;
             this.txt_miercolesSalida.Location = new System.Drawing.Point(363, 317);
             this.txt_miercolesSalida.Name = "txt_miercolesSalida";
             this.txt_miercolesSalida.Size = new System.Drawing.Size(140, 27);
@@ -328,6 +338,7 @@
             // txt_juevesSalida
             // 
             this.txt_juevesSalida.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_juevesSalida.ForeColor = System.Drawing.Color.White;
             this.txt_juevesSalida.Location = new System.Drawing.Point(363, 347);
             this.txt_juevesSalida.Name = "txt_juevesSalida";
             this.txt_juevesSalida.Size = new System.Drawing.Size(140, 27);
@@ -336,6 +347,7 @@
             // txt_viernesSalida
             // 
             this.txt_viernesSalida.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_viernesSalida.ForeColor = System.Drawing.Color.White;
             this.txt_viernesSalida.Location = new System.Drawing.Point(363, 377);
             this.txt_viernesSalida.Name = "txt_viernesSalida";
             this.txt_viernesSalida.Size = new System.Drawing.Size(140, 27);

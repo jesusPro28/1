@@ -53,23 +53,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Control;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(116, 599);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(87, 487);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(494, 26);
+            this.label1.Size = new System.Drawing.Size(389, 22);
             this.label1.TabIndex = 11;
             this.label1.Text = "CARRETERA HUEJATLA-CHALAHUIYAPA";
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::_1.Properties.Resources.Captura_de_pantalla_2025_07_09_191907;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 583);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Location = new System.Drawing.Point(0, 474);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(777, 12);
+            this.pictureBox5.Size = new System.Drawing.Size(583, 10);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 10;
             this.pictureBox5.TabStop = false;
@@ -77,10 +74,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::_1.Properties.Resources.Captura_de_pantalla_2025_07_09_191907;
-            this.pictureBox4.Location = new System.Drawing.Point(1, 116);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(1, 94);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(777, 12);
+            this.pictureBox4.Size = new System.Drawing.Size(583, 10);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 9;
             this.pictureBox4.TabStop = false;
@@ -88,10 +84,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::_1.Properties.Resources._202109180450036_gal;
-            this.pictureBox3.Location = new System.Drawing.Point(644, 2);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(483, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(123, 108);
+            this.pictureBox3.Size = new System.Drawing.Size(92, 88);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
@@ -99,10 +94,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::_1.Properties.Resources.Imagen_de_WhatsApp_2025_07_07_a_las_13_41_33_8f8742e6_removebg_preview;
-            this.pictureBox2.Location = new System.Drawing.Point(199, 6);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(149, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(388, 107);
+            this.pictureBox2.Size = new System.Drawing.Size(291, 87);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
@@ -111,9 +105,8 @@
             // 
             this.pictureBox1.Image = global::_1.Properties.Resources._2021091804500411_gal;
             this.pictureBox1.Location = new System.Drawing.Point(1, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(123, 108);
+            this.pictureBox1.Size = new System.Drawing.Size(92, 88);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -123,22 +116,19 @@
             this.lbl_empleado.AutoSize = true;
             this.lbl_empleado.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_empleado.ForeColor = System.Drawing.Color.White;
-            this.lbl_empleado.Location = new System.Drawing.Point(331, 140);
-            this.lbl_empleado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_empleado.Location = new System.Drawing.Point(226, 160);
             this.lbl_empleado.Name = "lbl_empleado";
-            this.lbl_empleado.Size = new System.Drawing.Size(151, 26);
+            this.lbl_empleado.Size = new System.Drawing.Size(120, 22);
             this.lbl_empleado.TabIndex = 12;
             this.lbl_empleado.Text = "EMPLEADO";
             // 
             // btn_salir
             // 
-            this.btn_salir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
             this.btn_salir.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_salir.ForeColor = System.Drawing.Color.White;
-            this.btn_salir.Location = new System.Drawing.Point(600, 133);
-            this.btn_salir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_salir.Location = new System.Drawing.Point(437, 115);
             this.btn_salir.Name = "btn_salir";
-            this.btn_salir.Size = new System.Drawing.Size(180, 43);
+            this.btn_salir.Size = new System.Drawing.Size(135, 35);
             this.btn_salir.TabIndex = 13;
             this.btn_salir.Text = "SALIR";
             this.btn_salir.UseVisualStyleBackColor = false;
@@ -147,84 +137,77 @@
             // lbl_numeroTrabjador
             // 
             this.lbl_numeroTrabjador.AutoSize = true;
-            this.lbl_numeroTrabjador.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_numeroTrabjador.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_numeroTrabjador.ForeColor = System.Drawing.Color.White;
-            this.lbl_numeroTrabjador.Location = new System.Drawing.Point(73, 222);
-            this.lbl_numeroTrabjador.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_numeroTrabjador.Location = new System.Drawing.Point(58, 217);
             this.lbl_numeroTrabjador.Name = "lbl_numeroTrabjador";
-            this.lbl_numeroTrabjador.Size = new System.Drawing.Size(297, 25);
+            this.lbl_numeroTrabjador.Size = new System.Drawing.Size(170, 19);
             this.lbl_numeroTrabjador.TabIndex = 14;
-            this.lbl_numeroTrabjador.Text = "NUMERO DE TRABAJADOR ";
+            this.lbl_numeroTrabjador.Text = "NUM TRABAJADOR ";
             // 
             // lbl_fechaInicio
             // 
             this.lbl_fechaInicio.AutoSize = true;
-            this.lbl_fechaInicio.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fechaInicio.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_fechaInicio.ForeColor = System.Drawing.Color.White;
-            this.lbl_fechaInicio.Location = new System.Drawing.Point(73, 258);
-            this.lbl_fechaInicio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_fechaInicio.Location = new System.Drawing.Point(58, 255);
             this.lbl_fechaInicio.Name = "lbl_fechaInicio";
-            this.lbl_fechaInicio.Size = new System.Drawing.Size(188, 25);
+            this.lbl_fechaInicio.Size = new System.Drawing.Size(152, 19);
             this.lbl_fechaInicio.TabIndex = 15;
             this.lbl_fechaInicio.Text = "FECHA DE INICIO";
             // 
             // lbl_fechaTermino
             // 
             this.lbl_fechaTermino.AutoSize = true;
-            this.lbl_fechaTermino.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fechaTermino.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_fechaTermino.ForeColor = System.Drawing.Color.White;
-            this.lbl_fechaTermino.Location = new System.Drawing.Point(73, 295);
-            this.lbl_fechaTermino.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_fechaTermino.Location = new System.Drawing.Point(58, 291);
             this.lbl_fechaTermino.Name = "lbl_fechaTermino";
-            this.lbl_fechaTermino.Size = new System.Drawing.Size(221, 25);
+            this.lbl_fechaTermino.Size = new System.Drawing.Size(177, 19);
             this.lbl_fechaTermino.TabIndex = 16;
             this.lbl_fechaTermino.Text = "FECHA DE TERMINO";
             // 
             // txt_numeroTrabajador
             // 
-            this.txt_numeroTrabajador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
-            this.txt_numeroTrabajador.Location = new System.Drawing.Point(409, 222);
-            this.txt_numeroTrabajador.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_numeroTrabajador.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_numeroTrabajador.Location = new System.Drawing.Point(255, 214);
             this.txt_numeroTrabajador.Name = "txt_numeroTrabajador";
-            this.txt_numeroTrabajador.Size = new System.Drawing.Size(185, 22);
+            this.txt_numeroTrabajador.Size = new System.Drawing.Size(140, 27);
             this.txt_numeroTrabajador.TabIndex = 17;
             // 
             // txt_fechaInicio
             // 
-            this.txt_fechaInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
-            this.txt_fechaInicio.Location = new System.Drawing.Point(409, 258);
-            this.txt_fechaInicio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_fechaInicio.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_fechaInicio.Location = new System.Drawing.Point(255, 252);
             this.txt_fechaInicio.Name = "txt_fechaInicio";
-            this.txt_fechaInicio.Size = new System.Drawing.Size(185, 22);
+            this.txt_fechaInicio.Size = new System.Drawing.Size(140, 27);
             this.txt_fechaInicio.TabIndex = 18;
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
-            this.textBox1.Location = new System.Drawing.Point(409, 295);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(255, 291);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(185, 22);
+            this.textBox1.Size = new System.Drawing.Size(140, 27);
             this.textBox1.TabIndex = 19;
             // 
             // btn_generar
             // 
-            this.btn_generar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
             this.btn_generar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_generar.ForeColor = System.Drawing.Color.White;
-            this.btn_generar.Location = new System.Drawing.Point(309, 399);
-            this.btn_generar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_generar.Location = new System.Drawing.Point(233, 391);
             this.btn_generar.Name = "btn_generar";
-            this.btn_generar.Size = new System.Drawing.Size(180, 43);
+            this.btn_generar.Size = new System.Drawing.Size(135, 35);
             this.btn_generar.TabIndex = 20;
             this.btn_generar.Text = "GENERAR";
             this.btn_generar.UseVisualStyleBackColor = false;
             // 
             // Form12
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(779, 629);
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.ClientSize = new System.Drawing.Size(584, 511);
             this.Controls.Add(this.btn_generar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txt_fechaInicio);
@@ -240,7 +223,6 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form12";
             this.Text = "Form12";
             this.Load += new System.EventHandler(this.Form12_Load);
